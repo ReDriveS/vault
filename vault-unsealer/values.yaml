@@ -1,0 +1,13 @@
+vault:
+  namespace: vault
+  service: vault
+  port: 8200
+
+unsealer:
+  enabled: true
+  keysSecretName: vault-unseal-keys
+  checkIntervalSeconds: 10
+  retryIntervalSeconds: 90
+  successfulJobTTLSeconds: 30
+  failedJobTTLSeconds: 3600
+  jobImage: python:3.13-slim

@@ -1,0 +1,7 @@
+
+apiVersion: v2
+name: vault-unsealer
+description: Vault automatic unsealing using a Kubernetes watcher
+type: application
+version: 0.3.0
+appVersion: "1.0.0"

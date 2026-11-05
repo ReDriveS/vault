@@ -1,0 +1,11 @@
+apiVersion: v2
+name: redrive-vault
+version: 0.1.0
+type: application
+appVersion: "1.21.2"
+description: Redrives HashiCorp Vault deployment
+
+dependencies:
+  - name: vault
+    version: "0.34.1"
+    repository: "https://helm.releases.hashicorp.com"
