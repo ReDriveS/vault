@@ -1433,12 +1433,12 @@ vault:
 githubAuth:
   enabled: true
   authPath: "github"
-  organization: "ReDriveS"
+  organization: ""
 
   teams:
     developers:
-      policy: "redrives-developer"
+      policy: ""
 
   secrets:
     mount: "secret"
-    prefix: "redrives"
+    prefix: ""
